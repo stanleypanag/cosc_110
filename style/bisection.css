@@ -1,0 +1,10 @@
+.outer-box {
+  display: flex;
+  justify-content: center;
+}
+
+.inner-box {
+  width: 70%;
+  border: 2px solid black;
+  border-radius: 20px;
+}

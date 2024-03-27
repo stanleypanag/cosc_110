@@ -1,0 +1,95 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  scroll-behavior: smooth;
+  font-family: "Courier New", Courier, monospace;
+}
+.navbar {
+  background-color: rgb(0, 0, 0);
+  z-index: 1000;
+}
+.navbar-toggler-icon {
+  background-color: rgb(255, 255, 255);
+}
+.navbar-toggler {
+  border: 1px rgb(255, 255, 255) solid;
+}
+.navbar-toggler span {
+  color: green;
+}
+.navbar-brand {
+  font-weight: bolder;
+  color: white;
+}
+.navbar-brand:hover {
+  font-weight: bolder;
+  color: rgb(77, 173, 40);
+}
+.nav-link {
+  color: rgb(105, 219, 52);
+}
+.nav-link:hover {
+  color: rgb(255, 255, 255);
+}
+
+section {
+  height: 100%;
+  width: 100%;
+}
+
+header {
+  display: flex;
+  justify-content: center;
+}
+
+.sectionOne {
+  height: 50vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #330033;
+  background-color: #000000;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='100%25' height='100%25' viewBox='0 0 1600 800'%3E%3Cg %3E%3Cpolygon fill='%23222222' points='800 100 0 200 0 800 1600 800 1600 200'/%3E%3Cpolygon fill='%23444444' points='800 200 0 400 0 800 1600 800 1600 400'/%3E%3Cpolygon fill='%23666666' points='800 300 0 600 0 800 1600 800 1600 600'/%3E%3Cpolygon fill='%23888888' points='1600 800 800 400 0 800'/%3E%3Cpolygon fill='%23aaaaaa' points='1280 800 800 500 320 800'/%3E%3Cpolygon fill='%23cccccc' points='533.3 800 1066.7 800 800 600'/%3E%3Cpolygon fill='%23EEE' points='684.1 800 914.3 800 800 700'/%3E%3C/g%3E%3C/svg%3E");
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+.sectionOne h1 {
+  font-size: 3rem;
+  color: white;
+  font-weight: bolder;
+}
+
+.text-content-outer {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 50px;
+}
+
+.text-content-inner {
+  width: 50%;
+}
+
+.btn-container {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.btn-container a {
+  width: 100%;
+}
+.btn-container button {
+  width: 100%;
+}
+
+footer {
+  background-color: rgb(29, 26, 26);
+  width: 100%;
+  height: 10vh;
+}
+
+.topic-text {
+  text-align: center;
+  margin-bottom: 50px;
+}
