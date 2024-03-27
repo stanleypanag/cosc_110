@@ -6,8 +6,7 @@
 
 .inner-box {
   width: 80%;
-  border: 2px solid black;
-  background-color: black;
+  background-color: #fffefe;
   border-radius: 20px;
 }
 
@@ -35,24 +34,29 @@
   border-left: none;
   border-right: none;
   border-bottom: 2px solid;
-  border-color: white;
+  border-color: rgb(131, 11, 11);
 }
 .input-group span {
-  color: white;
-  background-color: black;
+  color: rgb(131, 11, 11);
+  background-color: transparent;
   border: none;
   font-size: 1em;
 }
 
 .input-group input {
-  background-color: black;
+  background-color: transparent;
   border: none;
-  color: rgb(136, 245, 86);
+  color: rgb(245, 118, 86);
 }
 .input-group input:focus {
   box-shadow: none;
   background-color: transparent;
-  color: rgb(136, 245, 86);
+  color: rgb(131, 11, 11);
+}
+
+.input-group input::placeholder {
+  color: rgb(177, 146, 127);
+  font-style: italic;
 }
 
 .btn-container {
@@ -62,14 +66,16 @@
 }
 .btn-container a {
   width: 30vw;
-  border: 1px solid rgb(255, 255, 255);
+  border: 1px solid rgb(131, 11, 11);
+  background-color: rgb(131, 11, 11);
   margin-bottom: 20px;
   border-radius: 30px;
-  color: white;
+  color: rgb(255, 255, 255);
 }
 .btn-container a:hover {
   background-color: rgb(255, 255, 255);
-  color: rgb(0, 0, 0);
+  color: rgb(131, 11, 11);
+  border: 1px solid rgb(131, 11, 11);
 }
 
 .initial-value {
@@ -87,10 +93,6 @@
   width: 80%;
 }
 
-.calculateSection {
-  background-color: rgb(0, 0, 0);
-}
-
 .computationSection {
   display: flex;
   justify-content: center;
@@ -98,8 +100,7 @@
 
 .computationContainer {
   width: 100%;
-  border: solid 1px rgb(0, 0, 0);
-  background-color: rgb(29, 28, 28);
+  background-color: rgb(102, 9, 9);
   color: white;
   text-align: center;
   font-size: 1.5rem;
@@ -128,7 +129,15 @@
     display: none;
   }
   .input-group input::placeholder {
-    color: rgb(88, 91, 94);
+    color: rgb(153, 126, 115);
     font-style: italic;
   }
+}
+
+.fxFormula {
+  font-size: 1rem;
+}
+
+.x2Formula {
+  font-size: 1rem;
 }

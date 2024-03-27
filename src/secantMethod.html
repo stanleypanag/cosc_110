@@ -25,7 +25,13 @@
   <body>
     <nav class="navbar navbar-expand-lg">
       <div class="container-fluid">
-        <a class="navbar-brand" href="#">@cvsu-naic</a>
+        <a class="navbar-brand" href="#">
+          <i
+            class="fa-solid fa-square-root-variable fa-2xl"
+            style="color: #ffffff"
+          ></i>
+        </a>
+
         <button
           class="navbar-toggler"
           type="button"
@@ -35,9 +41,14 @@
           aria-expanded="false"
           aria-label="Toggle navigation"
         >
-          <span class="navbar-toggler-icon"></span>
+          <!-- Font Awesome bars icon -->
+          <i class="fa-solid fa-bars fa-beat" style="color: #f5f9ff"></i>
         </button>
-        <div class="collapse navbar-collapse" id="navbarNav">
+
+        <div
+          class="collapse navbar-collapse justify-content-end"
+          id="navbarNav"
+        >
           <ul class="navbar-nav">
             <li class="nav-item">
               <a class="nav-link" aria-current="page" href="../src/home.html"
@@ -66,13 +77,12 @@
 
     <main>
       <section class="sectionOne">
-        <h1>SECANT METHOD</h1>
+        <h1>SECANT METHOD CALCULATOR</h1>
       </section>
 
       <section class="calculateSection" id="calculateSection">
         <div class="outer-box">
           <div class="inner-box">
-            <h1 class="text-center text-white mb-5 mt-5">Calculate</h1>
             <div class="input-container_contaier">
               <div class="input-container">
                 <div class="input-group mb-5">
@@ -163,6 +173,11 @@
     <footer></footer>
 
     <!-- SCRIPTING -->
+
+    <script
+      src="https://kit.fontawesome.com/1a6b2afab4.js"
+      crossorigin="anonymous"
+    ></script>
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
       integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"

@@ -1,21 +1,19 @@
+@import url("https://fonts.googleapis.com/css2?family=Cedarville+Cursive&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
 * {
   margin: 0px;
   padding: 0px;
   scroll-behavior: smooth;
-  font-family: "Courier New", Courier, monospace;
+  font-family: "Poppins";
 }
 .navbar {
-  background-color: rgb(0, 0, 0);
+  background-color: rgb(77, 11, 11);
+  height: 10vh;
   z-index: 1000;
+  position: fixed;
+  width: 100%;
 }
-.navbar-toggler-icon {
-  background-color: rgb(255, 255, 255);
-}
-.navbar-toggler {
-  border: 1px rgb(255, 255, 255) solid;
-}
-.navbar-toggler span {
-  color: green;
+.navbar-toggler:focus {
+  box-shadow: none;
 }
 .navbar-brand {
   font-weight: bolder;
@@ -26,7 +24,9 @@
   color: rgb(77, 173, 40);
 }
 .nav-link {
-  color: rgb(105, 219, 52);
+  color: rgb(255, 255, 255);
+  font-family: "Poppins";
+  text-transform: uppercase;
 }
 .nav-link:hover {
   color: rgb(255, 255, 255);
@@ -49,15 +49,18 @@ header {
   align-items: center;
   background-color: #330033;
   background-color: #000000;
-  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='100%25' height='100%25' viewBox='0 0 1600 800'%3E%3Cg %3E%3Cpolygon fill='%23222222' points='800 100 0 200 0 800 1600 800 1600 200'/%3E%3Cpolygon fill='%23444444' points='800 200 0 400 0 800 1600 800 1600 400'/%3E%3Cpolygon fill='%23666666' points='800 300 0 600 0 800 1600 800 1600 600'/%3E%3Cpolygon fill='%23888888' points='1600 800 800 400 0 800'/%3E%3Cpolygon fill='%23aaaaaa' points='1280 800 800 500 320 800'/%3E%3Cpolygon fill='%23cccccc' points='533.3 800 1066.7 800 800 600'/%3E%3Cpolygon fill='%23EEE' points='684.1 800 914.3 800 800 700'/%3E%3C/g%3E%3C/svg%3E");
+  background-color: #000000;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='100%25' height='100%25' viewBox='0 0 1600 800'%3E%3Cg %3E%3Cpolygon fill='%23220000' points='1600 160 0 460 0 350 1600 50'/%3E%3Cpolygon fill='%23440000' points='1600 260 0 560 0 450 1600 150'/%3E%3Cpolygon fill='%23660000' points='1600 360 0 660 0 550 1600 250'/%3E%3Cpolygon fill='%23880000' points='1600 460 0 760 0 650 1600 350'/%3E%3Cpolygon fill='%23A00' points='1600 800 0 800 0 750 1600 450'/%3E%3C/g%3E%3C/svg%3E");
   background-attachment: fixed;
   background-size: cover;
 }
 
 .sectionOne h1 {
   font-size: 3rem;
+  font-family: "Poppins";
   color: white;
   font-weight: bolder;
+  text-align: center;
 }
 
 .text-content-outer {
@@ -84,7 +87,7 @@ header {
 }
 
 footer {
-  background-color: rgb(29, 26, 26);
+  background-color: rgb(77, 11, 11);
   width: 100%;
   height: 10vh;
 }
