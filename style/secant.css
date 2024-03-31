@@ -25,6 +25,7 @@
 
 .below-input {
   display: flex;
+  gap: 50px;
 }
 
 .input-group {
@@ -33,7 +34,7 @@
   border-top: none;
   border-left: none;
   border-right: none;
-  border-bottom: 2px solid;
+  border-bottom: 4px solid;
   border-color: rgb(131, 11, 11);
 }
 .input-group span {
@@ -57,6 +58,10 @@
 .input-group input::placeholder {
   color: rgb(177, 146, 127);
   font-style: italic;
+}
+
+.input-group-text {
+  font-weight: bold;
 }
 
 .btn-container {
@@ -131,6 +136,9 @@
   .input-group input::placeholder {
     color: rgb(153, 126, 115);
     font-style: italic;
+  }
+  .below-input {
+    gap: 0px;
   }
 }
 
